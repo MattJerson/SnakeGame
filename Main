@@ -1,0 +1,17 @@
+package test;
+import javax.swing.JFrame;
+public class Test {
+public Test() {
+JFrame Frame = new JFrame();
+Snek gamepanel = new Snek();
+Frame.add(gamepanel);
+Frame.pack();
+Frame.setVisible(true);
+Frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+Frame.setTitle("Snek");
+Frame.setLocationRelativeTo(null);
+}
+public static void main(String[] args) {
+new Test();
+}
+}
